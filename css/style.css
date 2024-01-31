@@ -1,0 +1,213 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(234, 196, 130);
+    display: flex;
+    justify-content: right;
+    
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(133, 75, 3);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+nav a {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: rgba(0, 0, 255, 0.714);
+  
+}
+
+nav a:hover {
+    color: rgb(57, 6, 124);
+}
+
+footer {
+
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(133, 75, 3);
+    margin-top: 100px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+footer a:hover {
+    color: rgba(0, 119, 255, 0.442);
+
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    font-style:oblique;
+    font-size: 23px;
+    color: rgb(2, 87, 118);
+}
+
+
+.intro h1 {
+
+font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(2, 87, 118);
+}
+
+.about {
+    text-align: center;
+    background-color: blanchedalmond;
+    color: rgb(2, 87, 118);
+font-family: 'Open Sans', sans-serif;
+}
+
+.about p {
+font-size: 20px;
+color: black;
+
+}
+.about a {
+    color: rgb(165, 6, 146);
+    text-decoration: none;
+}
+
+.about a:hover {
+    color: rgb(10, 100, 178);
+}
+
+hr {
+    border-style:groove;
+    border-width: 3px;
+    border-color: brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.selfie {
+    border-radius: 50% 50% 50% 50% ;
+    
+}
+
+ul {
+    display: grid;
+   
+}
+dl {
+    display: grid;
+}
+.three-col {
+    
+    margin-top: 30px;
+    display: grid;
+gap: 10px;
+grid-template-columns: 1fr 1fr 1fr;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.card {
+    background-color: rgb(234, 196, 130);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+
+.card:hover {
+   
+    box-shadow: 8px 12px 24px 0 rgba(0, 0, 0, 0.2), -4px 12px 20px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+
+
+.three-col img {
+ width:100%;
+}
+
+.pic1 {
+    position: absolute;
+    right: 800px;
+    top: 190px;
+    border-radius: 10px;
+}
+
+.pic2 {
+    position: absolute;
+    left: 800px;
+    top: 190px;
+    border-radius: 10px;
+}
+
+.contact {
+    color: rgb(2, 87, 118);
+font-family: 'Alegreya', sans-serif;
+}
+
+.one-cl {
+    margin-top: 30px;
+    display: flex;
+gap: 10px;
+grid-template-columns: 1fr;
+margin-left: 20px;
+margin-right: 20px;
+justify-content: flex;   
+
+}
+
+#ft {
+margin-top: 370px;
+}
+
+.unit {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    width: 50%;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    flex: 1; /* Takes up as much space as needed */
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+#submit {
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.in {
+    flex: 3;
+    height: 20px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+}
+
+textarea{
+    flex:8;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 20px;
+}
